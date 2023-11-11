@@ -1,0 +1,3 @@
+/Users/maugarcia/Documents/Universidad/quinto semestre/Algoritmos/Codigos/ActInt2_Equipo_01/cmake-build-debug/CMakeFiles/ActInt2_Equipo_01.dir
+/Users/maugarcia/Documents/Universidad/quinto semestre/Algoritmos/Codigos/ActInt2_Equipo_01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maugarcia/Documents/Universidad/quinto semestre/Algoritmos/Codigos/ActInt2_Equipo_01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
