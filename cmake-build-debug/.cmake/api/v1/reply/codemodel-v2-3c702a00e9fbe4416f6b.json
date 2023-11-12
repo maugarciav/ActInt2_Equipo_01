@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ActInt2_Equipo_01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ActInt2_Equipo_01-Debug-0fd94ada58df08a90be2.json",
+					"jsonFile" : "target-ActInt2_Equipo_01-Debug-4291cf2a7600c85679f0.json",
 					"name" : "ActInt2_Equipo_01",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/maugarcia/Documents/Universidad/quinto semestre/Algoritmos/Codigos/ActInt2_Equipo_01/cmake-build-debug",
-		"source" : "/Users/maugarcia/Documents/Universidad/quinto semestre/Algoritmos/Codigos/ActInt2_Equipo_01"
+		"build" : "/Users/maugarcia/Documents/Universidad/quinto semestre/Algoritmos/SP2/ActInt2_Equipo_01/cmake-build-debug",
+		"source" : "/Users/maugarcia/Documents/Universidad/quinto semestre/Algoritmos/SP2/ActInt2_Equipo_01"
 	},
 	"version" : 
 	{
