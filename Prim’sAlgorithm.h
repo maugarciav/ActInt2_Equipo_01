@@ -1,3 +1,10 @@
+// ====================================================
+// File: Prim'sAlgorithm.h
+// Description : Se implementa el algoritmo de Prim para encontrar la forma óptima de cablear  entre un las colonias
+// Autor: Mauricio García Villanueva - A01704098
+// Fecha: 11 de noviembre de 2023
+// ====================================================
+
 #ifndef ACTINT2_EQUIPO_01_PRIM_SALGORITHM_H
 #define ACTINT2_EQUIPO_01_PRIM_SALGORITHM_H
 
@@ -5,10 +12,20 @@
 #include <fstream>
 #include <vector>
 #include <climits>
-#include <queue>  // Incluimos la biblioteca para la cola de prioridad
+#include <queue>
 
 using namespace std;
 
+
+/*
+ * La funcion optimizeCabling, recive el numero de columnas y la matriz de adyacencia
+ * y se encarga de calcular la ruta optima para llegar a todos los nodos(columnas)
+ *
+ * Tiempo de complejidad: O(E * log(V))
+ *
+ * V : número de nodos (colonias) en el grafo
+ * E : número de aristas en el grafo
+ */
 void optimizeCabling(int numColonias, const vector<vector<int>>& adjacencyMatrix) {
     // Vector que almacena el nodo padre de cada colonia en el árbol de expansión mínima
     vector<int> parent(numColonias, -1);

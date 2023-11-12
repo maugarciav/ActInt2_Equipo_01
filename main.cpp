@@ -10,9 +10,11 @@ using namespace std;
 int main() {
     // Nombre de archivos de entrada
     string input1 = "input1.txt";
+    string input2 = "input2.txt";
+    string input3 = "input3.txt";
 
     // Abrir el archivo de entrada
-    ifstream inputFile(input1);
+    ifstream inputFile(input3);
     if (!inputFile.is_open()) {
         cerr << "Error al abrir el archivo de entrada.\n";
         return 1;
