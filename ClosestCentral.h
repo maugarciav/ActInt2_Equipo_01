@@ -1,5 +1,6 @@
 // ====================================================
 // File: ClosestCentral.h
+// Author: Mauricio Garcia Villanueva
 // Description : Se implementa el algoritmo de Dijkstra para encontrar la distancia más corta entre la
 // ubicación de la nueva central y la central más cercana usando la distancia euclidiana
 // Fecha: 12 de noviembre de 2023
@@ -42,13 +43,9 @@ void findClosestCentral(int newCentralX, int newCentralY, const vector<pair<int,
         }
     }
 
-    // Función para convertir el índice en letra
-    auto indexToLetter = [](int index) {
-        return static_cast<char>('A' + index);
-    };
 
-    cout << "La central mas cerca a la nueva central es la " << indexToLetter(closestCentralIndex)
-         << " con una distancia de: " << minDistance << "kms" << endl;
+    cout << "La central mas cerca a [" << newCentralX << "," << newCentralY << "] es [" << existingCentrals[closestCentralIndex].first
+         << "," << existingCentrals[closestCentralIndex].second << "] con una distancia de: " << minDistance << endl;
 
 }
 

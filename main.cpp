@@ -3,7 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include "Prim’sAlgorithm.h"
+#include "DijkstraAlgorithm.h"
 #include "ClosestCentral.h"
 
 
@@ -17,7 +17,7 @@ int main() {
     string input3 = "input3.txt";
 
     // Abrir el archivo de entrada
-    ifstream inputFile(input3);
+    ifstream inputFile(input1);
     if (!inputFile.is_open()) {
         cerr << "Error al abrir el archivo de entrada.\n";
         return 1;
@@ -56,14 +56,13 @@ int main() {
     int newCentralX, newCentralY;
     char par1, comma;
     inputFile >> par1 >> newCentralX >> comma >> newCentralY;
-    cout << newCentralX <<" " << newCentralY << endl;
 
 
 
 
     /*Part1*/
     cout << "Parte 1" << endl;
-    optimizeCabling(numColonias, adjacencyMatrix);
+    printAllPaths(numColonias, adjacencyMatrix);
     cout << endl;
 
     /*Part 4*/
