@@ -89,7 +89,8 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -104,6 +105,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Prim\u2019sAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ClosestCentral.h",
 			"sourceGroupIndex" : 1
 		}
 	],

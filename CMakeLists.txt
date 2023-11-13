@@ -4,4 +4,5 @@ project(ActInt2_Equipo_01)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(ActInt2_Equipo_01 main.cpp
-        Prim’sAlgorithm.h)
+        Prim’sAlgorithm.h
+        ClosestCentral.h)
