@@ -11,6 +11,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
+#include <limits>
 
 using namespace std;
 
@@ -22,32 +23,31 @@ using namespace std;
  * Tiempo de Complejidad = O(n)
  * n = nuemro de centrales
  */
-void findClosestCentral(int newCentralX, int newCentralY, const vector<pair<int, int>>& existingCentrals) {
+void findClosestCentral(int newCentralX, int newCentralY, const vector<pair<int, int>> &existingCentrals)
+{
     int closestCentralIndex = -1;
     double minDistance = numeric_limits<double>::infinity();
-
 
     // Calculamos la distancia euclidiana entre la nueva central y cada central existente
     /*
      * Distancia= ((x2 - x1)^2 + (y2 - y1)^2)^1/2
      */
-    for (int i = 0; i < existingCentrals.size(); ++i) {
+    for (int i = 0; i < existingCentrals.size(); ++i)
+    {
         int existingCentralX = existingCentrals[i].first;
         int existingCentralY = existingCentrals[i].second;
 
         double distance = sqrt(pow(newCentralX - existingCentralX, 2) + pow(newCentralY - existingCentralY, 2));
 
-        if (distance < minDistance) {
+        if (distance < minDistance)
+        {
             minDistance = distance;
             closestCentralIndex = i;
         }
     }
 
-
     cout << "La central mas cerca a [" << newCentralX << "," << newCentralY << "] es [" << existingCentrals[closestCentralIndex].first
          << "," << existingCentrals[closestCentralIndex].second << "] con una distancia de: " << minDistance << endl;
-
 }
 
-
-#endif //ACTINT2_EQUIPO_01_CLOSESTCENTRAL_H
+#endif // ACTINT2_EQUIPO_01_CLOSESTCENTRAL_H
