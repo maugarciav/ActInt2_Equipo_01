@@ -25,7 +25,7 @@ int main()
     string input3 = "input3.txt";
 
     // Abrir el archivo de entrada
-    ifstream inputFile(input1);
+    ifstream inputFile(input3);
     if (!inputFile.is_open())
     {
         cerr << "Error al abrir el archivo de entrada.\n";
@@ -95,7 +95,7 @@ int main()
     for (int i : ruta.first) {
         cout << char('A' + i) << " ";
     }
-    cout << "\nCosto total de la ruta: " << ruta.second << " km" << endl;
+    cout << "\nCosto total de la ruta: " << ruta.second << " km\n" << endl;
 
     /*Part3*/
     cout << "Parte 3" << endl;

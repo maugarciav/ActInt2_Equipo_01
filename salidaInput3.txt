@@ -1,0 +1,47 @@
+Parte 1
+
+Colonia 1 a Colonia 2: 34
+Colonia 1 a Colonia 3: 53
+Colonia 1 a Colonia 4: 21
+Colonia 1 a Colonia 5: 55
+Colonia 1 a Colonia 6: 21
+
+Colonia 2 a Colonia 1: 42
+Colonia 2 a Colonia 3: 56
+Colonia 2 a Colonia 4: 24
+Colonia 2 a Colonia 5: 21
+Colonia 2 a Colonia 6: 1
+
+Colonia 3 a Colonia 1: 1
+Colonia 3 a Colonia 2: 23
+Colonia 3 a Colonia 4: 22
+Colonia 3 a Colonia 5: 21
+Colonia 3 a Colonia 6: 22
+
+Colonia 4 a Colonia 1: 32
+Colonia 4 a Colonia 2: 46
+Colonia 4 a Colonia 3: 32
+Colonia 4 a Colonia 5: 53
+Colonia 4 a Colonia 6: 21
+
+Colonia 5 a Colonia 1: 53
+Colonia 5 a Colonia 2: 34
+Colonia 5 a Colonia 3: 53
+Colonia 5 a Colonia 4: 21
+Colonia 5 a Colonia 6: 35
+
+Colonia 6 a Colonia 1: 55
+Colonia 6 a Colonia 2: 69
+Colonia 6 a Colonia 3: 55
+Colonia 6 a Colonia 4: 23
+Colonia 6 a Colonia 5: 45
+
+Parte 2
+Ruta más corta: A D F E B C A
+Costo total de la ruta: 191 km
+
+Parte 3
+Flujo maximo: 5
+
+Parte 4
+La central mas cerca a [392,893] es [234,576] con una distancia de: 354.193
