@@ -12,6 +12,7 @@
 #include "DijkstraAlgorithm.h"
 #include "ClosestCentral.h"
 #include "CityNetwork.h"
+#include "tsp.h"
 
 using namespace std;
 
@@ -86,6 +87,15 @@ int main()
     cout << "Parte 1" << endl;
     printAllPaths(numColonias, adjacencyMatrix);
     cout << endl;
+    
+    /*Part2*/
+    cout << "Parte 2" << endl;
+    pair<vector<int>, int> ruta = vecinoMasCercano(numColonias, adjacencyMatrix);
+    cout << "Ruta más corta: ";
+    for (int i : ruta.first) {
+        cout << char('A' + i) << " ";
+    }
+    cout << "\nCosto total de la ruta: " << ruta.second << " km" << endl;
 
     /*Part3*/
     cout << "Parte 3" << endl;
