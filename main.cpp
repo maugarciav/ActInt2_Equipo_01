@@ -1,4 +1,10 @@
-// main.cpp
+// ========================================================
+// Archivo: main.cpp
+// Autores: José Emiliano Riosmena Castañón - A01704245
+//          María Azul Rosales Nachón - A01706348
+//          Mauricio García Villanueva - A01704098
+// Fecha: Viernes, 17 de noviembre del 2023
+// ========================================================
 
 #include <iostream>
 #include <fstream>
